@@ -1,0 +1,28 @@
+{
+  "name": "btjs",
+  "version": "1.0.0",
+  "description": "javascript beautiful tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "realwall",
+  "license": "ISC",
+  "bin": {
+    "btjs": "./bin/btjs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realwall/btjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/realwall/btjs/issues"
+  },
+  "homepage": "https://github.com/realwall/btjs#readme",
+  "dependencies": {
+    "config-chain": "^1.1.11",
+    "js-beautify": "^1.6.11",
+    "mkdirp": "^0.5.1",
+    "nopt": "^4.0.1"
+  }
+}
